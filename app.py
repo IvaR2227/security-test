@@ -5,6 +5,7 @@ AWS_ACCESS_KEY = "AKIA1234567890ABCDEF"
 
 # 2. LEAKED SECRET: Fake Gemini / High-Entropy Token (Random string >= 20 chars)
 GEMINI_KEY = "AIzaSyD-7x8Kp9demoRandomSecretToken99120"
+GEMINI_API_KEY_BACKUP = "AIzaSyC2q1Z9demoAnotherSecretToken88341"
 
 # 3. AST OWASP VULNERABILITY: Dynamic SQL Injection
 def get_user_data(cursor, user_id):
